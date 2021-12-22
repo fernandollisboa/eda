@@ -128,9 +128,9 @@ Em português estamos dizendo que existe, para grandes valores de $n$ e a partir
 
 > Em termos simplistas, $f(n) \in \Theta(g(n))$ significa dizer que o crescimento de f(n) é igual ao de g(n).
 
-**Outro exemplo.** Suponha que a função $7 * n^4 + 5 * n^2 +10$ descreva o custo de execução de um algoritmo. Se aplicarmos as abstrações simplificadoras, desconfiamos que $f(n) \in \Theta(n4)$, certo? Vamos demonstrar formalmente.
+**Outro exemplo.** Suponha que a função $7 * n^4 + 5 * n^2 +10$ descreva o custo de execução de um algoritmo. Se aplicarmos as abstrações simplificadoras, desconfiamos que $f(n) \in \Theta(n⁴)$, certo? Vamos demonstrar formalmente.
 
-<p align="center">$0 \leq c1 * n^4 \leq 7 * n^4 + 5 * n^2 + 10 \leq c2*n4, \forall n >= n0$</p>  
+<p align="center">$0 \leq c1 * n^4 \leq 7 * n^4 + 5 * n^2 + 10 \leq c2*n⁴, \forall n >= n0$</p>  
 
 Se escolhermos $c1=7$, $c2=22$ e $n_0 = 1$, temos:
 
